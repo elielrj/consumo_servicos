@@ -20,7 +20,7 @@ class Endereco {
 
   @override
   String toString() {
-    return "Rua $_logradouro, Número $_complemento\n"
+    return "$_logradouro, Número $_complemento\n"
         "${_bairro.toString()}\n"
         "CEP $_cep";
   }
